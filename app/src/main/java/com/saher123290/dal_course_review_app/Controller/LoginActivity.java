@@ -1,10 +1,11 @@
-package com.saher123290.dal_course_review_app;
+package com.saher123290.dal_course_review_app.Controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.saher123290.dal_course_review_app.R;
 import com.saher123290.dal_course_review_app.View.ILoginView;
 
 public class LoginActivity extends AppCompatActivity implements ILoginView{

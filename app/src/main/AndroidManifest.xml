@@ -11,11 +11,11 @@
         android:theme="@style/Theme.Dal_Course_Review_App">
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".Controller.LoginActivity"
             android:exported="false" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Controller.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
