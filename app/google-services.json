@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "284552770855",
+    "firebase_url": "https://dal-course-review-app-default-rtdb.firebaseio.com",
+    "project_id": "dal-course-review-app",
+    "storage_bucket": "dal-course-review-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284552770855:android:f17ee5d2785f260f54e502",
+        "android_client_info": {
+          "package_name": "com.saher123290.dal_course_review_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284552770855-o5c8frhg9cmbtqm7sr5k7t8m5q8ler0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC_AFqtYpRhsFhQAe5ZJB0Y5Sl8QUOd54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284552770855-o5c8frhg9cmbtqm7sr5k7t8m5q8ler0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
