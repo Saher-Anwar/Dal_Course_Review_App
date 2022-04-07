@@ -12,12 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="156dp"
-        android:fontFamily="@font/roboto_medium"
 
+        android:fontFamily="@font/roboto_medium"
+        android:textStyle="bold"
         android:text="@string/main_page_title"
         android:textColor="#FAC020"
-
         android:textSize="@dimen/title_size"
+
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,13 +43,17 @@
         android:layout_height="wrap_content"
 
         android:layout_marginBottom="228dp"
-        android:text="@string/redirect_to_login_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/redirect2SignupBtn"
-
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/redirect2SignupBtn" />
+        app:layout_constraintStart_toStartOf="@+id/redirect2SignupBtn"
+
+        android:text="@string/redirect_to_login_btn"
+        android:textColor="#FAC020"
+        android:textStyle="bold"
+        android:backgroundTint="#AD8000"
+        />
 
     <Button
         android:id="@+id/redirect2SignupBtn"
@@ -60,6 +65,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="10sp"
-        android:text="@string/redirect_to_signup_btn"/>
+
+        android:text="@string/redirect_to_signup_btn"
+        android:textColor="#FAC020"
+        android:textStyle="bold"
+        android:backgroundTint="#AD8000"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
