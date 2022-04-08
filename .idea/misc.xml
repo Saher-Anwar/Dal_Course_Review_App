@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Personal_Projects/Dal_Course_Review_App/app/src/main/res/layout-v28/activity_signup.xml" value="0.33469202898550726" />
         <entry key="..\:/Personal_Projects/Dal_Course_Review_App/app/src/main/res/layout/activity_login.xml" value="0.286231884057971" />
         <entry key="..\:/Personal_Projects/Dal_Course_Review_App/app/src/main/res/layout/activity_main.xml" value="0.286231884057971" />
+        <entry key="..\:/Personal_Projects/Dal_Course_Review_App/app/src/main/res/layout/activity_signup.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -10,4 +10,9 @@
     <string name="redirect_to_signup_btn">Sign Up</string>
     <string name="redirect_to_login_btn">Login</string>
     <string name="main_description">Review courses at Dalhousie University!</string>
+    <string name="default_first_name">Johnny</string>
+    <string name="default_last_name">Depp</string>
+    <string name="sign_up_btn">sign_up_btn</string>
+    <string name="default_email">Johnny@Dal.ca</string>
+    <string name="default_password">**************</string>
 </resources>

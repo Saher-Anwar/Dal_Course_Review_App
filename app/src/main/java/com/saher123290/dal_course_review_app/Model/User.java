@@ -3,12 +3,19 @@ package com.saher123290.dal_course_review_app.Model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
-public class User implements IUser{
-    private  String email,password;
+import java.util.ArrayList;
 
-    public User(String email, String password) {
+public class User implements IUser{
+    private String firstName, lastName, email,password;
+    ArrayList<ICourse> courses;
+
+    public User(String firstName, String lastName, String email, String password) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.email = email;
         this.password = password;
+
+        courses = new ArrayList<>();
     }
 
     @Override
@@ -22,19 +29,24 @@ public class User implements IUser{
     }
 
     @Override
-    public int isValid() {
-        // 0. Check for Email Empty
-        // 1. Check for Email Match pattern
-        // 2. Check for Password > 6
-        if(TextUtils.isEmpty(getEmail()))
-            return  0;
-        else if(!Patterns.EMAIL_ADDRESS.matcher(getEmail()).matches())
-            return  1;
-        else if(TextUtils.isEmpty(getPassword()))
-            return 2;
-        else if(getPassword().length()<=6)
-            return 3;
-        else
-            return -1;
+    public ArrayList<ICourse> getCourses() {
+        return courses;
+    }
+
+    @Override
+    public void addCourse(ICourse course) {
+        courses.add(course);
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

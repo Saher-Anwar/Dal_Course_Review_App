@@ -8,7 +8,6 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.saher123290.dal_course_review_app.R;
-import com.saher123290.dal_course_review_app.View.ILoginView;
 
 public class MainActivity extends AppCompatActivity implements IMainNavController{
 
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements IMainNavControlle
 
     @Override
     public void setSignupView() {
-        // TODO: change to signup activity
-        Toast.makeText(this, "sign up page", Toast.LENGTH_SHORT).show();
+        Intent signUpIntent = new Intent(this, RegisterUserActivity.class);
+        startActivity(signUpIntent);
     }
 }
