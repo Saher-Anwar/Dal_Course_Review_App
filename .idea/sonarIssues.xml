@@ -63,6 +63,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/saher123290/dal_course_review_app/Model/EmailVerifier.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/saher123290/dal_course_review_app/Model/ICourse.java">
           <value>
             <set />
@@ -73,7 +78,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/saher123290/dal_course_review_app/Model/IVerifier.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/saher123290/dal_course_review_app/Model/PasswordVerifier.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/saher123290/dal_course_review_app/Model/User.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/saher123290/dal_course_review_app/Model/VerifierFactory.java">
           <value>
             <set />
           </value>

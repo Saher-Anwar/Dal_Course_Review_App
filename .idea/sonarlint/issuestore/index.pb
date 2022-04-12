@@ -4,8 +4,6 @@ Zapp/src/main/java/com/saher123290/dal_course_review_app/Controller/IMainNavCont
 y
 Iapp/src/main/java/com/saher123290/dal_course_review_app/Model/Course.java,6\f\6f0b4bf3e71b13e1d52d511ff9cd3d8adbee7ac6
 …
-Uapp/src/main/java/com/saher123290/dal_course_review_app/Controller/IRegisterUser.java,f\f\ffedc11651ce74727d6088b09637b7306db69c05
-…
 Uapp/src/main/java/com/saher123290/dal_course_review_app/Controller/LoginActivity.java,b\8\b8558eba5ecba8de5f2ab427ee99f39d7a5c1f43
 z
 Japp/src/main/java/com/saher123290/dal_course_review_app/Model/ICourse.java,3\d\3d3920c6d986b4c01d66c9ad06fdf3d0e442b996
@@ -17,3 +15,7 @@ P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 „
 Tapp/src/main/java/com/saher123290/dal_course_review_app/Controller/MainActivity.java,3\7\37d48643d5df10e5394cc6c81299917fea6e3d04
+‚
+Rapp/src/main/java/com/saher123290/dal_course_review_app/Model/VerifierFactory.java,0\4\044b049b12bc713667e30f990f3fe00924ac4db5
+|
+Lapp/src/main/java/com/saher123290/dal_course_review_app/Model/IVerifier.java,4\f\4f42df9342aee3fcc72fed565dde3c9c050a4a1c
